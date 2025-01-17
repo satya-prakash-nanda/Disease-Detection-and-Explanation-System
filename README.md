@@ -44,5 +44,20 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/yourusername/disease-diagnosis.git
-   cd disease-diagnosis
+   git clone https://github.com/satya-prakash-nanda/Disease-Detection-and-Explanation-System.git
+   cd Disease-Detection-and-Explanation-System
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Backend Server**
+   ```bash
+   uvicorn app:app --reload
+   ```
+4. **Run the Streamlit Frontend**
+   ```bash
+   streamlit run application.py
+   ```
